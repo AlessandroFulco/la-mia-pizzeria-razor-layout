@@ -9,7 +9,10 @@
     Snacks
 </h1>
 
+@*v1*@
 <a class="btn btn-primary text-dark" asp-area="" asp-controller="Home" asp-action="Index">Return to Home</a>
+@*v2*@
+<a class="btn btn-primary text-dark" href="@Url.Action("Index", "Home")">Return to Home</a>
 
 @* Snack 1*@
 
@@ -199,4 +202,7 @@
 </div>
 
 
+@*v1*@
 <a class="btn btn-primary text-dark" asp-area="" asp-controller="Home" asp-action="Index">Return to Home</a>
+@*v2*@
+<a class="btn btn-primary text-dark" href="@Url.Action("Index", "Home")">Return to Home</a>/a>
